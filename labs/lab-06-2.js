@@ -3,7 +3,7 @@ let targetURL = "https://jsonplaceholder.typicode.com/posts"
 
 
 // 9.2 Please using PROMISE and ASYNC/AWAIT to solve this
-getPostResponseAsyncAwait();
+// getPostResponseAsyncAwait();
 
 async function getPostResponseAsyncAwait() {
     const inputUserId = Number(readline.question("Input user id (number): "));
@@ -42,3 +42,5 @@ async function getResponseListByUserId(userId) {
     const response = await fetch(endPoint);
     return response.json();
 }
+
+module.exports = { getResponseByPostId, getResponseListByUserId }
