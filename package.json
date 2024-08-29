@@ -1,6 +1,11 @@
 {
   "dependencies": {
+    "allure-mocha": "^3.0.0-beta.10",
     "nvm": "^0.0.4",
     "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "chai": "^4.5.0",
+    "mocha": "^10.7.3"
   }
 }
